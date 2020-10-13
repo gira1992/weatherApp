@@ -1,0 +1,76 @@
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                /* background: rgb(174,231,238);
+                background: radial-gradient(circle, rgba(174,231,238,1) 0%, rgba(66,102,207,0.894462008436187) 100%); */
+                background-image: url("bk.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            .wrapper{
+                display: flex;
+                justify-content: space-evenly;
+                flex-flow: column;
+                align-items: center;
+                width: 80%;
+                height: 90vh;
+                border: 3px solid black;
+                padding: 0 auto;
+                background-color: rgba(255, 200,150, 0.9);
+                box-shadow: 5px 2px 5px;
+                margin: 30px auto;
+            }
+
+            .content{
+                border: black 2px solid;
+            }
+
+            .heading {
+                font-size: 50px;
+                font-family: 'Quicksand', sans-serif;
+                color: darkred;
+            }
+
+            .city {
+                font-size: 3em;
+                color: rgba(253, 0, 0, 0.4);
+                font-weight: 800;
+                text-decoration: unset;
+            }
+
+            .current {
+                text-align: center;
+                color: #ff1212;
+            }
+
+            .temp{
+                font-size: 3em;
+            }
+
+            .weather {
+                font-size: 2.3em;
+            }
+
+            .hi-low{
+                font-size: 2em;
+                text-decoration:italic;
+            }
+
+            input[type=text]{
+                height: 40px;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1.5em;
+                width: 40%;
+                border:none;
+                border-bottom: #ff1212 3px solid;
+                text-align: center;
+                background-color: rgba(230,250,240, 0.5);
+            }
