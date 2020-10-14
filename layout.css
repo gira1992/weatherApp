@@ -75,3 +75,59 @@
                 text-align: center;
                 background-color: rgba(230,250,240, 0.5);
             }
+
+         
+            
+
+@media only screen and (max-width: 768px){
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .city {
+        font-size: 2.4em;
+    }
+
+    input[type=text]{
+        height: 40px;
+        font-size: 1em;
+        width: 50%;
+    }
+
+    .wrapper{
+        height: 70vh;
+        width: 70%;
+        
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .wrapper{
+        height: 70vh;
+        width: 70%;
+        
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type=text]{
+        height: 40px;
+        font-size: 0.8em;
+    }
+    }
+
